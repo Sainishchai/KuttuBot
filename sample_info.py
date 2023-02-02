@@ -18,7 +18,7 @@ AUTH_CHANNEL = None
 
 # MongoDB information
 DATABASE_URI = "mongodb+srv://klaus:klausbot@cluster0.w1hv2ov.mongodb.net/?retryWrites=true&w=majority"
-DATABASE_NAME = 'Omsairam@27'
-COLLECTION_NAME = 'channel_files'  # If you are using the same database, then use different collection name for each bot
+DATABASE_NAME = 'cluster0'
+COLLECTION_NAME = 'telegram_files'  # If you are using the same database, then use different collection name for each bot
 
 
