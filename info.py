@@ -39,7 +39,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001876764500'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'wudixh1')
-P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', 'True')), False)
+P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', 'True')), True)
 IMDB = is_enabled((environ.get('IMDB', 'True')), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', 'True')), False)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "📂 <em>File Name</em>: <code>ᴋᴜᴛᴛᴜ ʙᴏᴛ™|{file_name}</code> \n\n🖇 <em>File Size</em>: <code>{file_size}</code> </i>Join</i> [⚡️ᴇʟ ᴅᴏʀᴀᴅᴏ🚬](https://t.me/wudixh)  \n\n🖥 <i>Requests</i> - ||@im_kuttu_bot||")
